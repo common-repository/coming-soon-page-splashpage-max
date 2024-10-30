@@ -1,0 +1,97 @@
+.footer-info { 
+	text-align: right; 
+	font-style: italic;
+}
+
+.footer-info a {
+	color: #000000;
+	font-weight: 700;
+}
+
+select {
+	border: 1px solid #c8daf4;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+textarea {
+	width: 100%;
+	min-height: 220px;
+	border: 1px solid #c8daf4;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+	padding: 10px 8px;
+}
+
+.nnmcs-intro {
+	background: #c8daf4;
+	padding: 26px 28px 28px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;		
+}
+.nnmcs-intro p {
+	color: #030303;
+	max-width: 725px;
+	margin-top: 0;
+}
+.nnmcs-intro p:last-child {
+	margin: 0;
+}
+.nnmcs-intro a.button-primary {
+	float: right;
+	margin: 0 0 20px 20px;
+}
+
+
+.form-table td p.alert {
+	color: red;
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+.form-table td p.alert a {
+	color: red;
+	font-weight: 700;
+}
+
+.form-table .label-list {
+	margin-left: 5px;
+	font-size: 11px;
+}
+.form-table .label-list li { 
+	text-align: left; 
+	padding-left: 20px;
+}
+.form-table .label-list li:first-child { 
+	padding: 0;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.form-table p.small { 
+	margin: 3px 0 7px; 
+	font-size: 11px; 
+}
+
+.ui-datepicker {
+	display:none;
+	padding: 5px;
+	background: #f2f2f2;
+	min-width: 250px;
+}
+
+select.invalid {
+	border: 2px solid red;
+}
+
+
+@media (max-width: 556px) {
+	.nnmcs-intro { padding: 18px 22px; }
+	.nnmcs-intro p { clear: both; } 
+	.nnmcs-intro a.button-primary { margin-top: 20px; }
+}

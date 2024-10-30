@@ -1,0 +1,166 @@
+.centred {
+	height: 100%;
+	width: 100%;
+	border: none;
+	padding: 0;
+}
+
+.centred td { vertical-align: middle; }
+
+.nnmcs-coming-soon-page {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+}
+
+.nnmcs-wrap {
+	display: table;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.nnmcs-align {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.nnmcs-frame {
+	width: 75%;
+	margin: 0 auto;
+	max-width: 480px;
+	position: relative;
+}
+
+.nnmcs-content {
+	position: relative;
+	z-index: 4;
+	max-height: 100%;
+}
+
+.overflowing .nnmcs-content {
+	padding: 5px 0;
+	overflow-y: scroll;
+}
+
+.nnmcs-frame-cover {
+	position: absolute;
+	top: -1%;
+	left: -1%;
+	width: 102%;
+	height: 102%;
+	bottom: 1%;
+	z-index: 0;
+	display: none;
+}
+
+.nnmcs-title {
+	margin: 0 0 36px;
+	font-weight: 700;
+	font-size: 2.25em;
+}
+
+.nnmcs-logo {
+	margin: 0 auto;
+	max-width: 320px;
+}
+
+img,
+.nnmcs-logo img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	max-height: 200px;
+}
+
+.nnmcs-content-title { 
+	margin: 0; 
+	font-weight: 700;
+	font-size: 2em;
+}
+
+.nnmcs-frame .entry {
+	max-height: 400px;
+	padding-bottom: 5px;	
+}
+
+.nnmcs-text-center,
+.nnmcs-text-center .nnmcs-title { text-align: center; }
+.nnmcs-text-left,
+.nnmcs-text-left .nnmcs-title { text-align: left; }
+.nnmcs-text-right,
+.nnmcs-text-right .nnmcs-title { text-align:right; }
+.nnmcs-coming-soon-content img { margin-bottom: 36px; }
+.nnmcs-coming-soon-content .entry {	margin-top: 24px; }
+.nnmcs-social-included { padding-bottom: 26px; }
+
+.nnmcs-social-wrap {
+	text-align: center;
+	padding: 22px 25px 0;
+	margin-top: 48px;
+}
+
+.nnmcs-social-grid {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.nnmcs-social-grid li {
+	display: inline-block;
+}
+
+.nnmcs-social {
+	display: block;
+	padding: 4px 6px;
+	font-size: 1.5em;
+	transition: color 1.5s;
+}
+
+
+.nnmcs-digits { 
+	position: relative; 
+	max-width: 580px;
+	margin: 36px auto;
+}
+
+.nnmcs-text-left .nnmcs-digits { margin-left: 0; }
+.nnmcs-text-right .nnmcs-digits { margin-right: 0; } 
+
+.nnmcs-digits p { 
+	margin: 0; 
+	display: inline-block;
+	width: 23.75%;
+	padding: 0 10px 10px;
+	max-width: 140px;
+	text-align: center;
+	width: calc(25% - 24px);
+}
+
+.nnmcs-digits span {
+	font-size: 3em;
+	font-weight: 700;
+	line-height: 1em;
+	display: block;
+}
+.nnmcs-digits span.text {
+	font-size: 1em;
+	display: block;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+
+
+@media (min-width: 600px){
+	.nnmcs-frame {
+		padding: 48px;
+		width: 52%;
+	}
+	.nnmcs-digits span {
+		font-size: 4em;
+	}	
+}
